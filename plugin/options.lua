@@ -14,6 +14,8 @@ opt.inccommand = 'split'
 
 opt.expandtab = true
 opt.tabstop = 2
+opt.shiftwidth = 2
+opt.softtabstop = 0
 
 opt.splitbelow = true
 opt.splitright = true

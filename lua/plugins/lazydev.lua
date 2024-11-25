@@ -2,6 +2,7 @@ return {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
     -- used for completion, annotations and signatures of Neovim apis
     'folke/lazydev.nvim',
+    dependencies = { "Bilal2453/luvit-meta", lazy = true },
     ft = 'lua',
     opts = {
       library = {
